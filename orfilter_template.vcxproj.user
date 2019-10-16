@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemoteDebuggerCommand>C:\Program Files\Autodesk\MotionBuilder 2015\bin\x64\motionbuilder.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerAttach>false</RemoteDebuggerAttach>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArguments>-console D:\mobu\pyMobuTools\mia_runstopturn.fbx</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>
